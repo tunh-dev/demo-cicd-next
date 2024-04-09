@@ -13,4 +13,5 @@ it('App Router: Works with dynamic route segments', () => {
 it('HoleTex should be in the document', () => {
   render(<Page params={{ slug: 'Test' }} />);
   expect(screen.getByText('DEMO CICD UET 2024')).toBeInTheDocument();
+  expect(screen.getByText('KIEN TRUC PHAN MEM')).toBeInTheDocument();
 })
